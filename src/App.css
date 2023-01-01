@@ -1,0 +1,65 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("https://img.freepik.com/free-photo/colleagues-giving-fist-bump_53876-64857.jpg?w=1380&t=st=1672523435~exp=1672524035~hmac=becb9ebea2f7a3b830c706ab79a52b1103bea98080cff1443181c3ce236cdafe");
+  background-size: cover;
+  background-position: center;
+}
+
+.Form{
+  height:90%;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgba(255,255,255,0.7); 
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+}
+
+
+h1{
+  
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+input{
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.6); 
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+label{
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  padding: 10px 10px;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.6); 
+  font-size: 20px;
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 50px;
+}
